@@ -2,42 +2,55 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Citi Bike</title>
-
-
-<!-- D3 -->
-<script src="https://d3js.org/d3.v7.min.js"></script>
-
-
+<title>Airbnb Map</title>
 <!-- Leaflet CSS -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
 crossorigin=""/>
 
-
-<!-- Leaflet JavaScript code -->
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-crossorigin=""></script>
-
-
-<!-- PapaParse JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-
+<!-- Include noUiSlider CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.3/nouislider.min.css">
 
 <!-- Our CSS -->
-<link rel="stylesheet" type="text/css" href="static/css/style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
+  <!-- The div that holds our map -->
+<div id="map" style="height: 600px;"></div>
 
-<!-- The div that holds our map -->
-<div id="map-id"></div>
+<!-- Include the file input for CSV -->
+<input type="file" id="fileInput">
 
+  <!-- The dropdown menu for filtering boroughs -->
+<select id="boroughFilter">
+  <option value="all">All Boroughs</option>
+  <option value="Manhattan">Manhattan</option>
+  <option value="Brooklyn">Brooklyn</option>
+  <option value="Queens">Queens</option>
+  <option value="Bronx">Bronx</option>
+  <option value="Staten Island">Staten Island</option>
+</select>
+
+<div>
+  <label for="priceSlider">Price Range:</label>
+  <div id="priceSlider"></div>
+  <div id="priceRangeLabel"> <!-- This will display the selected range -->
+    Price Range: <span id="min"></span> - <span id="max"></span>
+  </div>
+</div>
+
+
+<!-- Leaflet JavaScript code -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+<!-- Include noUiSlider JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.3/nouislider.min.js"></script>
+
+<!-- PapaParse -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 
 <!-- Our JavaScript file -->
-<script type="text/javascript" src="static/js/logic.js"></script>
+<script type="text/javascript" src="markers-index.js"></script>
 </body>
-
-
 </html>
