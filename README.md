@@ -1,6 +1,7 @@
 # Project-3
 This file contains files for project 3
-
+##
+PROJECT MEMBERS: Taylor Hipkins, Joseph DiTizii, Jeff Morgan
 
 ## Provenance
 SOURCES <br>
