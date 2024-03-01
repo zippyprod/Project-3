@@ -8,25 +8,47 @@
 integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
 crossorigin=""/>
 
+
 <!-- Our CSS -->
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-  <!-- The div that holds our map -->
+
+<!-- The div that holds our map -->
 <div id="map" style="height: 600px;"></div>
+
 
 <!-- Include the file input for CSV -->
 <input type="file" id="fileInput">
 
-  <!-- The dropdown menu for filtering boroughs -->
+
+<!-- The dropdown menu for filtering boroughs -->
 <select id="boroughFilter">
-  <option value="all">All Boroughs</option>
-  <option value="Manhattan">Manhattan</option>
-  <option value="Brooklyn">Brooklyn</option>
-  <option value="Queens">Queens</option>
-  <option value="Bronx">Bronx</option>
-  <option value="Staten Island">Staten Island</option>
+<option value="all">All Boroughs</option>
+<option value="Manhattan">Manhattan</option>
+<option value="Brooklyn">Brooklyn</option>
+<option value="Queens">Queens</option>
+<option value="Bronx">Bronx</option>
+<option value="Staten Island">Staten Island</option>
+</select>
+
+<!-- Dropdown for price intervals -->
+<select id="priceDropdown">
+  <option value="0">Less than $50</option>
+  <option value="50">$50 - $100</option>
+  <option value="100">$100 - $200</option>
+  <option value="200">$200 - $300</option>
+  <option value="300">$300 - $500</option>
+  <option value="500">$500 - $1,000</option>
+  <option value="1000">$1,000 - $2,000</option>
+  <option value="2000">$2,000 - $3,000</option>
+  <option value="3000">$3,000 - $5,000</option>
+  <option value="5000">$5,000 - $10,000</option>
+  <option value="10000">$10,000 - $20,000</option>
+  <option value="20000">$20,000 - $50,000</option>
+  <option value="50000">$50,000 - $100,000</option>
+  <option value="100000">More than $100,000</option>
 </select>
 
 
@@ -34,8 +56,11 @@ crossorigin=""/>
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
 
+
+
 <!-- PapaParse -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
 
 <!-- Our JavaScript file -->
 <script type="text/javascript" src="markers-index.js"></script>
