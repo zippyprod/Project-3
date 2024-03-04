@@ -23,7 +23,7 @@ This data was downloaded from Kaggle
 ##  CODE
 
 - Python, Java, Leaflet 
-- Packages:Pandas, Pathlib, Matplotlib, Spicy.stats, Numpy, seaborn.
+- Packages:Pandas, Pathlib, Matplotlib, Spicy.stats, Numpy, Seaborn.
 
 ## PROJECT PLANNING
 - Analyze the correlation of price, and number of bathrooms among the five boroughs.
