@@ -36,7 +36,7 @@ This data was downloaded from Kaggle
 - select choose file and import listings.csv
 - note: presented with listings_sql (a shortened dataset to reduce running time)
 - use filters to filter through desired boroughs, price, and number of bedrooms
-- Interactive map video is here Interactive Map Video(https://www.youtube.com/watch?v=NYjR3mgtvCo) 
+- Interactive map video is here [Interactive Map Video](https://www.youtube.com/watch?v=NYjR3mgtvCo) 
 
 
 ## CONCLUSION
