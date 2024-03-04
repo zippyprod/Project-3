@@ -1,6 +1,6 @@
 # Project-3
 
-##PROJECT MEMBERS:
+## PROJECT MEMBERS:
 Taylor Hipkins, Joseph DiTizii, Jeff Morgan
 
 ## PURPOSE 
