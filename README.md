@@ -1,7 +1,10 @@
 # Project-3
-This file contains files for project 3
-##
-PROJECT MEMBERS: Taylor Hipkins, Joseph DiTizii, Jeff Morgan
+
+##PROJECT MEMBERS:
+Taylor Hipkins, Joseph DiTizii, Jeff Morgan
+
+## PURPOSE 
+The objective of this project was to conduct a visual examination of Airbnbs in New York City, considering factors such as their geographical distribution, bedroom count, and pricing.
 
 ## Provenance
 SOURCES <br>
@@ -15,6 +18,16 @@ Ultimatly the data is licensed under a [Creative Commons Attribution 4.0 Interna
 <br>
 COLLECTION METHODOLOGY
 <br>
-This data was downloaded
+This data was downloaded from Kaggle
+
+##  CODE
+
+- Python, Java, Leaflet 
+- Packages:Pandas, Pathlib, Matplotlib, Spicy.stats, Numpy, seaborn.
+
+## CONCLUSION
+
+ - The primary conclusion of the analyses will be discussed in a presetation in class using a powerpoint presentation.
+ - We demonstrated that there are significant differences in the differenc ein AirBnb prices and number of bedrooms in the five nyc boroughs 
 
 
