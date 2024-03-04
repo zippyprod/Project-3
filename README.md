@@ -25,6 +25,18 @@ This data was downloaded from Kaggle
 - Python, Java, Leaflet 
 - Packages:Pandas, Pathlib, Matplotlib, Spicy.stats, Numpy, seaborn.
 
+## PROJECT PLANNING
+- Analyze the correlation of price, and number of bathrooms among the five boroughs.
+- visualize the various aspects of the listings usch as number of bathrooms, number of bedrooms, and price.
+- We believed that there is a significant difference in these factors depending on the borough the listing is in
+- Conduct statistcal analysis as well as create visulaizations to prove/ disprove this hypothesis.
+- Create an interactive map for users to visualize and browse these findings.
+
+## MAP INSTRUCTIONS
+- select choose file and import listings.csv
+- note: presented with listings_sql (a shortened dataset to reduce running time)
+- use filters to filter through desired boroughs, price, and number of bedrooms
+
 ## CONCLUSION
 
  - The primary conclusion of the analyses will be discussed in a presetation in class using a powerpoint presentation.
