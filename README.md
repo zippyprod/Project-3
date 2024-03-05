@@ -11,6 +11,13 @@ The objective of this project was to conduct a visual examination of Airbnbs in 
 - Python, Java, Leaflet 
 - Packages:Pandas, Pathlib, Matplotlib, Spicy.stats, Numpy, Seaborn.
 
+## PACKAGES NOT COVERED IN CLASS
+- PapaParse
+  - java program used to convert csv data into JSON format.
+- Seaborn
+  - Python package used to create violin charts as well as color pallets for graphs. 
+
+
 ## PROJECT PLANNING
 - Analyze the correlation of price, and number of bathrooms among the five boroughs.
 - visualize the various aspects of the listings usch as number of bathrooms, number of bedrooms, and price.
